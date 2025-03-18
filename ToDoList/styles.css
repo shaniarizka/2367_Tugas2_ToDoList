@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Background */
+.bg-dotted {
+    background-image: radial-gradient(#66A5AD 1px, transparent 1px);
+    background-size: 15px 15px;
+}
+.border-wave { border-color: #66A5AD; }
+
+.todo-item {
+    background-color: #C4DFE6; /* Warna latar belakang */
+    padding: 10px;  /* Padding agar lebih rapi */
+    border-radius: 5px; /* Membuat sudut lebih halus */
+}
+
+/* Colors */
+.text-deep-aqua { color: #003B46; }
+.text-ocean { color: #07575B; }
+.bg-deep-aqua { background-color: #003B46; }
+.bg-ocean { background-color: #07575B; }
+.bg-wave { background-color: #66A5AD; }
+
+/* Inner Box */
+.bg-box { background-color: white; }
